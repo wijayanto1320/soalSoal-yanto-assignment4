@@ -1,4 +1,4 @@
-import { SoalContext } from "@/app/page";
+import { SoalContext } from "@/app/layout";
 import React, { useContext, useState } from "react";
 
 interface SoalProps {
