@@ -1,4 +1,4 @@
-import { SoalContext } from "@/app/layout";
+import { SoalContext } from "@/app/appContext";
 import React, { useContext, useState } from "react";
 
 interface SoalProps {
@@ -10,7 +10,6 @@ interface SoalProps {
   answer3: string;
   realAnswer: string;
 }
-
 export default function Soal({
   index,
   id,
